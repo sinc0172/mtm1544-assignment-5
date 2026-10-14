@@ -1,4 +1,32 @@
-img {
-    max-width: 100%;
-    height: auto;
+/* main navigation bar styles */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #d75e70;
+    font-family: 'Helvetica Neue', sans-serif;
 }
+
+.site-title {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+    color:#fff;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav a:hover, a:focus {
+    color: #fdf57e;
+    text-decoration: underline double;
+}
+
